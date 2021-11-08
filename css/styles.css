@@ -973,6 +973,8 @@ body {
   letter-spacing: 0.01em;
   color: var(--second-text-color);
   margin-bottom: 20px;
+
+  position: relative;
 }
 
 .modal-form-input:first-child{
@@ -989,6 +991,18 @@ body {
   margin-top: 10px;
   padding-left: 15px;
 }
+
+
+.modal-form-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 .modal-form-message {
   width: 100%;
