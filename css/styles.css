@@ -1038,9 +1038,6 @@ body {
 
 }
 
-.modal-form-button {
-  align-self: center;
-}
 
 .modal-form-checkbox-label {
   display: flex;
@@ -1072,4 +1069,15 @@ body {
 
 .modal-form-checkbox:focus+.modal-form-checkbox-label::before {
   outline: var(--accent-color);
+}
+
+.accept-policy-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.modal-form-button {
+  align-self: center;
 }
