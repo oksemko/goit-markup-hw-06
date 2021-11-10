@@ -279,6 +279,29 @@
                 </li>
             </ul>
             </div>
+            <div class="footer-subscribe">
+                <form action="#" class="footer-subscribe-form">
+                    <p class="subscribe-form-head">Подпишитесь на рассылку</p>
+                    <label for="mail" class="subscribe-form-field">
+                        <input for 
+                        type="mail" 
+                        class="subscribe-form-input"
+                        name="user-mail"
+                        id="mail"
+                        placeholder="E-mail"
+                        title="mail@mail.com"
+                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" 
+                        required
+                        />
+                        <button type="button" class="subscribe-form-button" type="submit">Подписаться
+                            <svg class="subscribe-form-icon" width="24" height="24">
+                                <use href="./images/sprite.svg#icon-icon-send">
+                                </use>
+                            </svg>
+                        </button>
+                    </label>
+                </form>
+            </div>
         </div>
     </footer>
 </body>
